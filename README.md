@@ -29,7 +29,7 @@ multicast (ff02::1) with no central controller.
 |------|---------|---------|
 | firmware/honeypot/udp-server-honeypot-reconfig-v2.c | 5, 6 | Primary & Secondary Honeypot |
 | firmware/real-iot-nodes/finaludp-server-reconfig.c | 2, 3, 4 | Real IoT Devices |
-| firmware/border-router/border-router.c | 1 | RPL DODAG Root (standard Contiki-NG) |
+| firmware/border-router/border-router.c | 1 (common for all conditions) | RPL DODAG Root (standard Contiki-NG) |
 | firmware/attacker/single-attacker/2attacker-flood.c | 7 | Scenario 1: UDP Flood (T1498) |
 | firmware/attacker/single-attacker/3attacker-scan.c | 7 | Scenario 2: Network Scan (T1046) |
 | firmware/attacker/single-attacker/3attacker-unlock.c | 7 | Scenario 3: UNLOCK Injection (T1059) |
