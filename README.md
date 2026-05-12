@@ -49,7 +49,7 @@ multicast (ff02::1) with no central controller.
 |------|---------|---------|
 | firmware/real-iot-nodes/udp-server-reconfig.c | 2, 3, 4 | Real IoT only — no honeypot nodes loaded |
 
-### Section 5.6 — Multi-Attacker Scalability
+### Condition D Multi-Attacker Scalability
 
 | File | Node(s) | Purpose |
 |------|---------|---------|
