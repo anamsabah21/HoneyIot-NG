@@ -23,7 +23,7 @@ multicast (ff02::1) with no central controller.
 
 ## File Guide
 
-### Condition C — Full HoneyIoT-NG (Main Experiment)
+### Condition C - Full HoneyIoT-NG (Main Experiment)
 
 | File | Node(s) | Purpose |
 |------|---------|---------|
@@ -36,20 +36,20 @@ multicast (ff02::1) with no central controller.
 | firmware/attacker/single-attacker/3attacker-icmpv6-udp.c | 7 | Scenario 4: ICMPv6 Flood (T1498) |
 | firmware/attacker/single-attacker/3attacker-rogue-ra.c | 7 | Scenario 5: Rogue RA (T1557) |
 
-### Condition B — Passive Honeypot (Ablation Study)
+### Condition B - Passive Honeypot (Ablation Study)
 
 | File | Node(s) | Purpose |
 |------|---------|---------|
 | firmware/honeypot/udp-server-honeypot-passive.c | 5, 6 | Detects attacks but does NOT broadcast BLOCK |
 | firmware/real-iot-nodes/udp-server-reconfig.c | 2, 3, 4 | Real IoT Devices — no blocklist |
 
-### Condition A — No Honeypot (Ablation Study)
+### Condition A - No Honeypot (Ablation Study)
 
 | File | Node(s) | Purpose |
 |------|---------|---------|
 | firmware/real-iot-nodes/udp-server-reconfig.c | 2, 3, 4 | Real IoT only — no honeypot nodes loaded |
 
-### Condition D Multi-Attacker Scalability
+### Condition D - Multi-Attacker Scalability
 
 | File | Node(s) | Purpose |
 |------|---------|---------|
